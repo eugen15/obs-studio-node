@@ -21,6 +21,9 @@
 
 GS::Vertex::Vertex()
 {
+
+
+
 	
 	this->hasStore = true;
 	this->store = util::malloc_aligned(16, sizeof(vec3) * 3 + sizeof(uint32_t) + sizeof(vec4) * MAXIMUM_UVW_LAYERS);
